@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <meta name="description" content="has different social web page link">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7db20b503f.js" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script>
+      $(document).ready(function(){
+          $('#menubar').click(function(){
+              $('ul').toggleClass('show');
+          })
+      })
+  </script>
+</head>
+<body>
+
+    <div class="navbar">
+
+        <div class="icon">
+            <h2 class="logo">ConnectWeb</h2>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://web.whatsapp.com/">Whatsapp</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://www.Youtube.com/">Youtube</a></li>
+                <li><a href="https://www.tiktok.com/">Tiktok</a></li>
+                <li><a href="https://mail.google.com">Gmail</a></li>
+                <li><a class="button" href="contact.html">Contact</a></li>
+            </ul>
+            <label id="menubar">
+                <i class="fas fa-bars"></i>
+            </label>
+        </div>
+
+      </div>
+
+
+<div class="container">
+
+    <form action="https://www.google.com/search?q=" method="get" class="search-bar">
+        <input type="text" placeholder="Search anything" name="search" required>
+        <button type="submit"><img src="search.png"></button>
+    </form>
+
+</div>
+
+</body>
+</html>
