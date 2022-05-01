@@ -177,6 +177,7 @@ ul li a:hover{
         text-align: center;
         transition: 1s;
         display: block;
+        overflow-y: scroll;
 
     }
     a:active{
